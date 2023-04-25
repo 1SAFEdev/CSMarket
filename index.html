@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>BUFF Conversion Calculator</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="https://buff.163.com/market/" target="_blank">BUFF.163</a></li>
+				<li><a href="https://buff.market/market/best_deals?min_price=0.2&sort_by=discount.desc&game=csgo" target="_blank">BUFF.MARKET</a></li>
+				<li><a href="https://csgofloat.com/search?sort_by=highest_discount&min_price=20&max_price=20000&type=buy_now" target="_blank">CSGOFLOAT</a></li>
+				<li><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?exchangeTab=exchange" target="_blank">DMARKET</a></li>
+			</ul>
+		</nav>
+		<h1>BUFF Conversion Calculator</h1>
+		<form>
+			<label for="csgoMarketField">Marketplace amount:</label>
+			<input type="text" id="csgoMarketField" name="csgoMarketField" required>
+			<label for="buffField">BUFF.163 amount:</label>
+			<input type="text" id="buffField" name="buffField" required>
+			<input type="button" value="Calculate" onclick="calculatePercentage()">
+		</form>
+		<p id="resultLabel"></p>
+		<p id="profitLabel"></p>
+		<script src="script.js"></script>
+	</body>
+</html>
