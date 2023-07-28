@@ -61,6 +61,10 @@ p {
 	color: #ddd;
 }
 
+#roiLabel {
+	color: #ddd;
+}
+
 /* Navigation bar styles */
 nav {
 	background-color: #333;
